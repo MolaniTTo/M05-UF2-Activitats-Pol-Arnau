@@ -35,3 +35,10 @@
 
 
 ## Proves Estructurals (Unit Testing Pujat al GitHub)
+
+1. Prova:
+    - Entrada: base 5, exponent 2
+    - Sortida: 25
+2. Prova:  
+    - Entrada: base 0, exponent 0;
+    - Sortida: 0
