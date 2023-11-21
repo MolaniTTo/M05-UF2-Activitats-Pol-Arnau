@@ -14,10 +14,10 @@ Clases Validas:
         - Valors límit: 1, 2147483647
 
 Clases Invalidas:
-    - Input 1: 0, -5, -2147483647
-        - Valors límit: 1, -2147483647
-    - Input 2: 0, -10, -2147483647
-        - Valors límit: 0, -2147483647
+    - Input 1: 0, -5, -2147483648
+        - Valors límit: 0, -2147483648
+    - Input 2: 0, -10, -2147483648
+        - Valors límit: 0, -2147483648
 
 ## Proves Estructurals (Unit Testing Pujat al GitHub)
 
