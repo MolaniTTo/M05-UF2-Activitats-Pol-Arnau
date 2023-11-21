@@ -43,8 +43,37 @@
     - Sortida: Error! Sobrepassa el valor maxim de INT32 (Valor límit num1=999999999)
 
 6. Prova:
-    - Entrada: base 4,5
+    - Entrada: num1=4,5
     - Sortida: Error! Entrada amb decimals no valida per tipus de dades INT
 
 
 ## Proves Estructurals (Unit Testing Pujat al GitHub)
+
+1. Prova:
+    - Entrada: 5
+    - Sortida: "Es natural"
+
+2. Prova:
+    - Entrada: 0
+    - Sortida: "No es natural:" (Introduir fins que sigui natural)
+
+3. Prova:
+    - Entrada: num1=5
+    - Sortida: "Es natural"
+    - Entrada: num2=10
+    - Sortida: "Es natural" 
+    - Sortida: "El mes gran es el segon" 
+
+4. Prova:
+    - Entrada: num1=10
+    - Sortida: "Es natural"
+    - Entrada: num2=5
+    - Sortida: "Es natural" 
+    - Sortida: "El mes gran es el primer" 
+
+5. Prova:
+    - Entrada: num1=5
+    - Sortida: "Es natural"
+    - Entrada: num2=5
+    - Sortida: "Es natural" 
+    - Sortida: "Són iguals" 
