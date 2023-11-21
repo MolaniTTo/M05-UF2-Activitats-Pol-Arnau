@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Metodes
 {
@@ -21,15 +21,10 @@ namespace Metodes
 
         public static int Potencia(int firstNum, int secondNum)
         {
-            if (secondNum = 0)
+            int result = 1;
+            for (int i = 0; i < secondNum; i++)
             {
-                result = 1
-            } else
-            {
-                for (int i = 1; i < secondNum; i++)
-                {
-                    result *= firstNum;
-                }
+                result *= firstNum;
             }
             return result;
         }
