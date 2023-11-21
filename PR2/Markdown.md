@@ -8,17 +8,11 @@
 
 ### Joc de Proves Ex2:
 
-Clases Validas:
+1. Clases Validas:
     - Input 1: -2147483648, 5, 2147483647
         - Valors límit: -2147483648, 2147483647
     - Input 2: -2147483648, 10, 2147483647
         - Valors límit: -2147483648, 2147483647
-
-Clases Invalidas:
-    - Input 1: -2147483649, -5, -2147483648
-        - Valors límit: 1, -2147483647
-    - Input 2: 0, -10, -2147483647
-        - Valors límit: 0, -2147483647
 
 ## Proves Estructurals (Unit Testing Pujat al GitHub)
 
