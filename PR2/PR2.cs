@@ -22,6 +22,10 @@ namespace Metodes
         public static int Potencia(int firstNum, int secondNum)
         {
             int result = 1;
+            if (firstNum == 0)
+            {
+                result = 0;
+            }
             for (int i = 0; i < secondNum; i++)
             {
                 result *= firstNum;
